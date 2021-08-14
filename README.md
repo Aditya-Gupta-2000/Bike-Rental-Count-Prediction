@@ -23,11 +23,15 @@ weathersit :
 temp : Normalized temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-8, t_max=+39 (only in hourly scale)
 atemp: Normalized feeling temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-16, t_max=+50 (only in hourly scale)
 hum: Normalized humidity. The values are divided to 100 (max)
+
 windspeed: Normalized wind speed. The values are divided to 67 (max)
+
 casual: count of casual users
+
 registered: count of registered users
+
 cnt: count of total rental bikes including both casual and registered
-Download link: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
+
 
 Libraries
 pandas
