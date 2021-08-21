@@ -19,3 +19,4 @@ pickle.dump(RFModel_Total_Count,open('model_Total_Count.pkl','wb'))
 model_Total_Count = pickle.load(open('model_Total_Count.pkl','rb'))
 
 print(RFModel_Total_Count.predict([[1,1,0.23,0.11,0.34]]))
+
